@@ -26,7 +26,6 @@ function playSound(audio, key) {
 
 document.addEventListener('keydown', (e) => {
     const elements = getElement(e.keyCode);
-    playSound(elements.audio, elements.key);
     if (!elements.audio) return;
     playSound(elements.audio, elements.key);
 });
