@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key {
+    width: 100px;
+    height: auto;
+    padding-right: 4px;
+    padding-left: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.key:hover {
+    cursor: pointer;
+}
+
+.sound {
+    font-size: 8px;
+    color: black;
+}
+
+.playing {
+    border-color: gold;
+    transform: scale(1.2, 1.2);
+    transition-duration: .5s;
+}
